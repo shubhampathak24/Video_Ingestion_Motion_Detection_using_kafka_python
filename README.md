@@ -6,3 +6,5 @@
 5. Don't close the current terminal and open a new terminal. Run 'python producer.py'
 6. Check you consumer terminal to get IP Address for video stream and append '/vidoe' in the address.
 Example - http://192.168.29.28:5000/video
+7. A copy of your video would be stored in your current directory.
+8. Model captures continuous images whenever a motion is detected in a live stream and save that continuous images as a video file.
