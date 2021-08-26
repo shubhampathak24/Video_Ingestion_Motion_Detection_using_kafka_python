@@ -1,0 +1,9 @@
+tweepy
+kafka-python
+pandas
+matplotlib
+flask
+kafka-python
+opencv-python
+tensorflow
+numpy

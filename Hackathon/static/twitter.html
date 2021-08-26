@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweets Ingestion</title>
+    <link rel="stylesheet" href="twitter.css">
+</head>
+
+<body>
+    <section>
+        <form class="login-form" action="/action">
+            <div class="container">
+                <div class="brand-logo-twitter"></div>
+                <div class="brand-title">Twitter Tweets</div>
+                <div class="inputs">
+                    <label for="search">Search</label>
+                    <input id="search" name="input1" type="text" placeholder="Please enter search parameter" required/>
+                    <label for="tweetNumber"># Tweets</label>
+                    <input id="tweetNumber" name="input2" type="number" placeholder="No. of tweets to be searched" required min="1" max="1000"/>
+                    <button type="submit">SUBMIT</button>
+                    <a href="http://localhost:5000/">Home-Screen</a>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

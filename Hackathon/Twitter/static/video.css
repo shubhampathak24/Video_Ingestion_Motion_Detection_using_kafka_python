@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+html{
+  background: url("video.jpg");
+  margin: 0px;
+  background-size: cover;
+  background-position: right;
+}
+
+body {
+  margin: 50px 0px 0px 30px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-weight: normal;
+  /* align-items: center; */
+  text-align: center;
+  /* justify-content: center; */
+  /* place-items: center; */
+  overflow: hidden;
+  font-family: poppins;
+  /* background: #56CCF2;
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+  background: linear-gradient(to right, #2F80ED, #56CCF2); */
+
+}
+
+.container {
+  position: relative;
+  width: 350px;
+  height: 475px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 5px 10px 15px grey;
+  /* box-shadow: 10px 10px 5px #656660; */
+  /* box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white; */
+}
+
+div.brand-logo-twitter {
+  height: 100px;
+  width: 100px;
+  background: url("https://img.icons8.com/color/100/000000/twitter--v2.png");
+  margin-left: 90px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+  transition: box-shadow 0.3s;
+}
+
+.brand-logo-twitter:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.brand-logo-youtube {
+  height: 100px;
+  width: 100px;
+  background: url("https://img.icons8.com/color/144/000000/youtube-music.png") no-repeat center;
+  margin-left: 90px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+  transition: box-shadow 0.3s;
+}
+
+.brand-logo-youtube:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.brand-title {
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #1DA1F2;
+  letter-spacing: 1px;
+}
+
+.inputs {
+  text-align: left;
+  margin-top: 30px;
+}
+
+label, input, button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+button {
+  margin-top: 20px;
+  background: #1DA1F2;
+  color: white;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: normal;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  background: #ecf0f3;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: normal;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+a:hover {
+  box-shadow: none;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

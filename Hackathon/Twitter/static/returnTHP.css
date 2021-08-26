@@ -1,0 +1,25 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    background: #ecf0f3;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: normal;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+  }
+  
+  a:hover {
+    box-shadow: none;
+  }
